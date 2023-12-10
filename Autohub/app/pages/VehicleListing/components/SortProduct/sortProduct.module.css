@@ -1,0 +1,13 @@
+.button {
+  border: none;  
+  color: black;
+  padding: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sort_container{
+  display: flex;
+  margin-bottom:20px;
+  justify-content: end;
+}

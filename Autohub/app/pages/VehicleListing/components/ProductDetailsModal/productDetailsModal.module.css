@@ -1,0 +1,39 @@
+
+.overlay {
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  width:100%;
+  top: 20%;
+  left: 0;
+  /* background-color: rgba(0, 0, 0, 0.5);  */
+  z-index: 99;
+}
+
+
+.modal {
+  display:flex;
+  justify-content: space-around;
+  position:relative;
+  background-color: white;
+  border-radius: 8px;
+  width: 80%;
+  height: 70vh;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.modal img{
+ 
+  margin-top: 50%;
+}
+.modalContent {
+margin-top: 50%;
+}
+.closeButton {
+    font-size: 67px;
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    cursor: pointer;
+  
+}
